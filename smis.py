@@ -12,6 +12,6 @@ detail_frame = tk.LabelFrame(win, text="Enter Details", font=("Segoe UI", 20), b
 detail_frame.place(x=20, y= 110, width=420, height=560)
 
 data_frame = tk.LabelFrame(win, bd=12, bg="lightgrey", relief=tk.RIDGE)
-
+data_frame.place(x=440, y=110, width=810,height=560)
 
 win.mainloop()
